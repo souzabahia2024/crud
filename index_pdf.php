@@ -3,7 +3,7 @@ ob_start();
 ?>
 <hmtl>
     <head>
-        <title>SouzaWeb sistemas</title>
+        <title>LOJA CASA DOS LIVROS</title>
         
                 
        <link rel="stylesheet" type="text/css" href="http://localhost/crud/assets/css/bootstrap.min.css" />

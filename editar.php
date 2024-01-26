@@ -16,7 +16,8 @@ if($usuario === false) {
     exit;
 }
 ?>
-<h1>Editar Usuário</h1>
+<h1>LOJA CASA DOS LIVROS</h1>
+<h3>Editar Usuarios</h3>
 
 <form method="POST" action="editar_action.php" enctype="multipart/form-data">
     <input type="hidden" name="id" value="<?=$usuario->getId();?>" />
