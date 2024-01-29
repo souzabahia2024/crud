@@ -1,5 +1,4 @@
 
-<h1>Cadastro de usuarios</h1>
 
 <hmtl>
     <head>
