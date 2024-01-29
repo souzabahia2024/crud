@@ -222,8 +222,8 @@ if($sql->rowCount() > 0) {
 					move_uploaded_file($_FILES['fotos']['tmp_name'], $pastaFoto.'/'.$tmpname);
 					list($width_orig, $height_orig) = getimagesize($pastaFoto.'/'.$tmpname);
 					$ratio = $width_orig/$height_orig;
-					$width = 200;
-					$height = 200;
+					$width = 80;
+					$height =80 ;
 					if($width/$height > $ratio) {
 						$width = $height*$ratio;
 					} else {

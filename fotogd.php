@@ -16,3 +16,4 @@ imagedestroy($image);
 //echo "ola GD";
 
 ?>
+<h1>LISTA DE FOTOS DOS USUARIOS</h1>
