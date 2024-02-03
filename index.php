@@ -9,6 +9,7 @@
         <script type="text/javascript" src="http://localhost/crud/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="http://localhost/crud/assets/js/jquery.min.js"></script>
 </head>
+
 <?php
 require 'config.php';
 require 'dao/UsuarioDaoMysql.php';
@@ -27,11 +28,13 @@ $p=($pg-1)*$qt_por_pagina;
 $lista=$usuarioDao->paginar($p,$qt_por_pagina);
 ?>
 <body>
+    <h1>LOJA DE LIVROS</h1>
+
 <nav class="navbar navbar-inverse">
             
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="./" class="navbar-brand">Classificados Brasil</a>
+                    <a href="./" class="navbar-brand">LIVRO-NOSSO MELHOR AMIGO</a>
                 </div>
 
 
