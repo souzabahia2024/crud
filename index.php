@@ -77,6 +77,6 @@ $lista=$usuarioDao->paginar($p,$qt_por_pagina);
      }
  ?>
     </div>
-   
+   <p>Obrigado volte sempre</p>
     </body>
 </html>
