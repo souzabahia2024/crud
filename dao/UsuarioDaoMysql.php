@@ -240,6 +240,9 @@ if($sql->rowCount() > 0) {
 
          return $tmpname;
     }
+    public function linha(){
+         echo "<br/>";
+    }
     
     
     public function editarUsuarioComFoto($nome, $email, $foto, $id) {
