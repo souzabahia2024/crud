@@ -262,6 +262,6 @@ if($sql->rowCount() > 0) {
     exit;
     }
     
-
-    
+public function linha(){
+    echo "<br/>";
 }
